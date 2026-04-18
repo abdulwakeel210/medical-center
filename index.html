@@ -239,7 +239,7 @@
       align-items: center; position: relative; overflow: hidden; margin-bottom: 72px;
     }
     .contact-wrap::before {
-      content: ''; position: absolute; inset: 0;
+      pointer-events: none; z-index: 0;
       background: radial-gradient(ellipse at 80% 50%, rgba(67,160,71,0.15) 0%, transparent 60%);
     }
     .contact-heading { font-family: 'Playfair Display', serif; font-size: 2.1rem; font-weight: 900; color: white; line-height: 1.2; margin-bottom: 12px; }

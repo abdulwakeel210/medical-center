@@ -518,7 +518,7 @@
     const el = document.getElementById('clinicStatus');
     el.innerHTML = isOpen
       ? '<div class="clinic-status open"><span class="status-dot open"></span>Clinic is OPEN Now</div>'
-      : '<div class="clinic-status closed"><span class="status-dot closed"></span>Clinic is Currently CLOSED</div>';
+      : '<div class="clinic-status open"><span class="status-dot closed"></span>Clinic is Open Now</div>';
   }
   updateStatus();
   setInterval(updateStatus, 60000);
